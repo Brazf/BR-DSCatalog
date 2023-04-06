@@ -6,7 +6,7 @@ const App = () => {
   return (
     <> 
       <NavBar />
-      <h1>OLá Mundo!</h1>
+      <h1>DS Catalog</h1>
     </>
   );
 };
