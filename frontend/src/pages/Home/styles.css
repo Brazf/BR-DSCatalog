@@ -1,12 +1,21 @@
 .home-container {
     padding: 10px;
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     border: 1px solid red;
 }
 
-.home-container h1 {
+.home-content-container h1 {
+    width: 260px;
     font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.home-content-container p {
+    color: #9e9e9e;
+    width: 260px;
+    font-size: 0.8em;
+    margin-bottom: 30px;
 }
 
 .home-image-container {
@@ -30,5 +39,8 @@
 
 .home-content-container {
     border: 1px solid blue;
-    padding: 10px;
+    padding: 10px 10px 60px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
