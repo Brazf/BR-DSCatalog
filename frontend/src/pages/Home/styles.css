@@ -105,3 +105,21 @@
   }
 
 }
+
+@media (min-width: 1200px) {
+
+  .home-card {
+    flex-direction: row;
+
+  }
+
+  .home-image-container svg {
+    width: 650px;
+    height: 480px;
+  }
+
+  .home-content-container h1{
+    padding: 155px 695px 475px 100px;
+    width: 565px;
+  }
+}
