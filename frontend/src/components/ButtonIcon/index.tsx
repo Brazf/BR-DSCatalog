@@ -1,10 +1,17 @@
-import './styles.css';
+import { ReactComponent as SetaIcon } from 'assets/images/Seta.svg';
 
 const ButtonIcon = () => {
   return (
-    <button className="btn btn-primary btn-icon">
-      <h6>Inicie agora a sua busca</h6>
-    </button>
+    <div className="btn-container">
+      <div>
+        <button className="btn btn-primary">
+          <h6>Inicie agora a sua busca</h6>
+        </button>
+      </div>
+      <div>
+        <SetaIcon />
+      </div>
+    </div>
   );
 };
 
